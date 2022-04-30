@@ -2,7 +2,9 @@
 
 Live codding on StackBlitz ⚡️
 
-Test demo [https://bangresto.vercel.app](https://bangresto.vercel.app/)
+Visit here for run live codding [https://www.hockeycomputindo.com/2022/05/new-astro-landing-page-template-free.html →](https://www.hockeycomputindo.com/2022/05/new-astro-landing-page-template-free.html)
+
+Test demo [https://bangresto.vercel.app →](https://bangresto.vercel.app/)
 
 Other Astro sourcecode free download :
 
