@@ -1,0 +1,12 @@
+<section class="col-md-6 p-3 bg-dark border text-white border-white rounded" id="pos5"></section>
+<script>
+const response = await fetch(`data/home.json`);
+const data = await response.json();
+document.getElementById('pos5').innerHTML = `
+<img width="100%" class="img-fluid rounded" alt="${data.introtitle}" src="${data.coverpos5}"/>
+<div class="p-3">
+<h3><a href="/" class="text-white">${data.pos5}</a></h3>
+<p>${data.spekpos5}</p>
+</div>
+`;
+</script>

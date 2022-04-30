@@ -1,0 +1,24 @@
+<section class="col-md-12 p-3 p-md-5 bg-light border border-white text-center" id="download"></section>
+<script>
+const response = await fetch(`data/demo.json`);
+const data = await response.json();
+document.getElementById('download').innerHTML = `
+<img width="100%" class="img-fluid rounded" alt="${data.dwtitle}" src="${data.dwcover}"/>
+<div class="p-3">
+<h3>${data.dwtitle}</h3>
+<p>${data.dwdesc}</p>
+<p class="row p-3">
+<a class="col-md-12 p-3 p-md-5 btn btn-outline-danger" href="${data.dwpdf}">
+<img class="img-fluid rounded" alt="${data.dwtitle}" src="${data.dwpdfcover}"/>
+<br/>
+${data.dwbpdf}</a>
+<!--
+<a class="col-md-6 p-3 p-md-5 btn btn-outline-success" href="${data.dwandroid}">
+<img class="img-fluid rounded" alt="${data.dwtitle}" src="${data.dwandroidcover}"/>
+<br/>
+${data.dwbandroid}</a>
+</p>
+-->
+</div>
+`;
+</script>

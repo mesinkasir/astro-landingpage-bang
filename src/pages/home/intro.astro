@@ -1,0 +1,11 @@
+<section class="col-md-12 p-3 p-md-5 bg-light border border-white" id="intro"></section>
+<script>
+const response = await fetch(`data/home.json`);
+const data = await response.json();
+document.getElementById('intro').innerHTML = `
+<img width="100%" class="img-fluid rounded" alt="${data.introtitle}" src="${data.introcover}"/>
+<h3><a href="/" class="text-dark">${data.introtitle}</a></h3>
+<p>${data.introcontent}</p>
+
+`;
+</script>

@@ -1,0 +1,21 @@
+<section class="col-md-12 p-3 p-md-5 bg-light border border-white text-center" id="demo"></section>
+<script>
+const response = await fetch(`data/demo.json`);
+const data = await response.json();
+document.getElementById('demo').innerHTML = `
+<h3>${data.title}</h3>
+<p>${data.desc}</p>
+<div class="p-3">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/${data.vd1}" title="${data.desc}"></iframe>
+</div>
+<p>${data.vd1t}</p>
+</div>
+<div class="p-3">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/${data.vd2}" title="${data.desc}"></iframe>
+</div>
+<p>${data.vd2t}</p>
+</div>
+`;
+</script>

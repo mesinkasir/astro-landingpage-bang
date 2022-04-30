@@ -1,0 +1,17 @@
+<section class="col-md-12 p-3 p-md-5 bg-light border border-white text-center" id="info"></section>
+<script>
+const response = await fetch(`data/home.json`);
+const data = await response.json();
+document.getElementById('info').innerHTML = `
+<img width="100%" class="img-fluid rounded" alt="${data.introtitle}" src="${data.coverinfo}"/>
+<div class="p-3">
+<h3>${data.info}</h3>
+<p>${data.coninfo}</p>
+<p>
+<a class="btn btn-success text-white" href="https://wa.me/${data.wa}">${data.btnwa}</a>
+<a class="btn btn-primary text-white" href="tel:${data.call}">${data.btncall}</a>
+<a class="btn btn-danger text-white" href="mailto:${data.email}">${data.btnemail}</a>
+</p>
+</div>
+`;
+</script>

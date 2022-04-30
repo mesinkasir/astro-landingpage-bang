@@ -1,0 +1,10 @@
+<nav id="nav" class="navbar bg-light col-12 p-3 shadow"></nav>
+<script>
+const response = await fetch(`data/nav.json`);
+const data = await response.json();
+document.getElementById('nav').innerHTML = `
+  <a class="nav-link text-dark" href="${data.url1}">${data.page1}</a>
+  <a class="nav-link text-dark" href="${data.url2}">${data.page2}</a>
+  <a class="nav-link text-dark" href="${data.url3}">${data.page3}</a>
+	`;
+	</script>

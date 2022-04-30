@@ -1,0 +1,27 @@
+---
+import Navi from '../widget/nav/Navi.astro';
+import SEO from '../widget/SEO/google.astro';
+import Style from '../widget/SEO/style.astro';
+import Head from '../pages/home/head.astro';
+import Contact from '../pages/home/info.astro';
+import Unduh from '../pages/demo/unduh.astro';
+import Footer from '../widget/foot/foot.astro';
+---
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<SEO/>
+<Style/>
+</head>
+<body class="bg-dark">
+<div class="container-fluid">
+<div class="row">
+<Head/>
+<Navi/>
+<Unduh/>
+</div>
+</div>
+<Footer/>
+</body>
+</html>

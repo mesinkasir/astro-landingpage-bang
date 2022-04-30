@@ -1,0 +1,11 @@
+<header class="col-12 col-md-12 bg-dark text-center text-white py-5 p-md-5 mb-3" id="header"></header>
+<script>
+const response = await fetch(`data/home.json`);
+const data = await response.json();
+document.getElementById('header').innerHTML = `
+<img class="img-fluid" width="120" alt="${data.name}" src="${data.logo}"/>
+<h1><a href="/" class="text-white"><strong>${data.name}</strong></a></h1>
+<h2>${data.desc}</h2>
+
+`;
+</script>
