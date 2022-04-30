@@ -79,6 +79,9 @@ export async function get() {
         'https://1.bp.blogspot.com/-clEilHQCj54/X9gy05Q5-WI/AAAAAAAALrY/u3L1aiQT5hQSm7i4F9-Av2ZhduEF3wGqQCLcBGAsYHQ/s1400/mesin%2Bkasir%2Btouchscreen%2Blayar%2Bsentuh6.jpg',
       spekpos5:
         'All in one touchscreen by ASUS technology + Printer kasir auto cutter 80mm yang mampu memotong kertas otomatis + laci kasir bahan full besi + auto multi laser barcode + mesin pencetak kode barcode + remote desktop software untuk layanan bantuan + aplikasi integrasi website resto untuk mu',
+      touch: 'Download POS E-Catalog',
+      touchurl:
+        'https://mesinkasir.github.io/larapos/e-catalog/TOUCHSCREEN%20POS.pdf',
       info: 'Contact Us.',
       coverinfo:
         'https://media.istockphoto.com/vectors/modern-coffeehouse-coffee-shop-interior-design-vector-id1126278617?b=1&k=20&m=1126278617&s=612x612&w=0&h=IOV_ymvsNOIgrzD0i5wuZICE_-4BUQ90Yb5dr6kewqs=',

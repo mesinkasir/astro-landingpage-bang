@@ -1,0 +1,10 @@
+<section class="col-md-12 p-3 bg-dark border text-white border-white rounded" id="touch"></section>
+<script>
+const response = await fetch(`data/home.json`);
+const data = await response.json();
+document.getElementById('touch').innerHTML = `
+<div class="p-3">
+<h3><a class="btn btn-danger" href="${data.touchurl}" class="text-white">${data.touch}</a></h3>
+</div>
+`;
+</script>
