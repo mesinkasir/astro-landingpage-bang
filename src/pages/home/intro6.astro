@@ -3,7 +3,7 @@
 const response = await fetch(`data/home.json`);
 const data = await response.json();
 document.getElementById('intro6').innerHTML = `
-<img class="img-fluid rounded" alt="${data.intro6}" src="${data.cover6}"/>
+<img width="100%" class="img-fluid rounded" alt="${data.intro6}" src="${data.cover6}"/>
 <div class="p-3">
 <h3><a href="/" class="text-white">${data.intro6}</a></h3>
 <p>${data.conintro6}</p>
