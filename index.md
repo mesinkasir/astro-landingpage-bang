@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# astro-landingpage
 
-You can use the [editor on GitHub](https://github.com/mesinkasir/astro-landingpage-bang/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Live codding on StackBlitz ⚡️
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Visit here for run live codding [https://www.hockeycomputindo.com/2022/05/new-astro-landing-page-template-free.html →](https://www.hockeycomputindo.com/2022/05/new-astro-landing-page-template-free.html)
 
-### Markdown
+Test demo [https://bangresto.vercel.app →](https://bangresto.vercel.app/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Play Video [https://www.youtube.com/watch?v=IuXVoDAZxRU →](https://www.youtube.com/watch?v=IuXVoDAZxRU)
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+![astro landing page](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOcqNtKdYq2hIQEhET4DdnrkKe8lSRZqWtAnJzcTbrGn46IvqtLsxSsOv28CNWXbAYCJgk7F_PuDbJSmAl6HjK4ssOrz6qUQe4meYnG7aMFFuGqr7Qq7PPMjeGdz5J5IYm5Xxizxy862g0c97mPE678sMmBkDMNeA-6mzsNkON4uEBS_4RtP5_q7yoSQ/s1349/new%20astro%20template%20landing%20free%20download%20source%20code%20full%20gratis.png)
 
-- Bulleted
-- List
+---
 
-1. Numbered
-2. List
+Other Astro sourcecode free download :
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mesinkasir/astro-landingpage-bang/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [astroboy →](https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html)
+- [cuteblog for astro →](https://www.hockeycomputindo.com/2022/04/cute-blog-astro-generator-static-site.html)
