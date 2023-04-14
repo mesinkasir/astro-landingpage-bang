@@ -86,7 +86,7 @@ export async function get() {
       coverinfo:
         'https://media.istockphoto.com/vectors/modern-coffeehouse-coffee-shop-interior-design-vector-id1126278617?b=1&k=20&m=1126278617&s=612x612&w=0&h=IOV_ymvsNOIgrzD0i5wuZICE_-4BUQ90Yb5dr6kewqs=',
       coninfo: 'Hubungi kami untuk informasi dan konsultasi anda.',
-      wa: '6285646104747',
+      wa: '62895339403223',
       btnwa: 'Whatsapp',
       call: '+62895339403223',
       btncall: 'Call Us',
